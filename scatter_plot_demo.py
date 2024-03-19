@@ -1,10 +1,8 @@
-import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns 
 import streamlit as st 
  
-os.chdir(r"C:\Training\Academy\Statistics (Python)\Datasets")
 cars93 = pd.read_csv("Cars93.csv")
 
 cat_columns = [ None, 'Type', 'AirBags', 'Origin',
